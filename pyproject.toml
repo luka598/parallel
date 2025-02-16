@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "parallel"
+version = "0.0.1"
+description = "Better than concurrent"
+readme = "README.md"
+authors = [{ name = "luka598", email = "luka598@tuta.io" }]
+license = { file = "LICENSE" }
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
